@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "sinatra"
-gem "datamapper"
+gem "data_mapper"
 gem "haml"
 
 group :development do
