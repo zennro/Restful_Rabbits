@@ -6,10 +6,10 @@ class CreateRabbits < ActiveRecord::Migration
   		t.integer :age 
   		t.string :colour
   		t.timestamps
-  		
-  end
+    end
+  end 
 
   def down
+    drop_table :rabbits
   end
 end
-
