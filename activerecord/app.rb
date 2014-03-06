@@ -9,7 +9,7 @@ end
 
 get '/rabbits' do
   @rabbits = Rabbit.all
-  # haml :index
+  haml :index
 end
 
 get '/rabbits/new' do
